@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<instance xmlns="http://www.exelearning.org/content/v0.3" reference="10" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
+<instance xmlns="http://www.exelearning.org/content/v0.3" reference="8" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
  <dictionary>
   <string role="key" value="_title"></string>
   <unicode value="El FEES Y LA EDUCACIÓN SUPERIOR UNIVERSITARIA"></unicode>
@@ -91,7 +91,7 @@
   <string role="key" value="_name"></string>
   <unicode value="FEES"></unicode>
   <string role="key" value="_nextIdeviceId"></string>
-  <int value="14"></int>
+  <int value="15"></int>
   <string role="key" value="_nextNodeId"></string>
   <int value="5"></int>
   <string role="key" value="_nodeIdDict"></string>
@@ -365,7 +365,7 @@
       <instance class="exe.engine.jsidevice.JsIdevice" reference="6">
        <dictionary>
         <string role="key" value="_title"></string>
-        <unicode value="¿Cómo se usa el FEES?"></unicode>
+        <unicode value="¿El FEES se distribuye igual entre todas las universidades?"></unicode>
         <string role="key" value="_attributes"></string>
         <list>
          <tuple>
@@ -426,144 +426,9 @@
          <instance class="exe.engine.field.TextAreaField" reference="7">
           <dictionary>
            <string role="key" value="_id"></string>
-           <unicode value="129_2"></unicode>
-           <string role="key" value="_idevice"></string>
-           <reference key="6"></reference>
-           <string role="key" value="_instruc"></string>
-           <string value=""></string>
-           <string role="key" value="_name"></string>
-           <string value=""></string>
-           <string role="key" value="anchor_names"></string>
-           <list></list>
-           <string role="key" value="anchors_linked_from_fields"></string>
-           <dictionary></dictionary>
-           <string role="key" value="content_w_resourcePaths"></string>
-           <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;El FEES es usado para las actividades sustantivas de las Universidades Públicas de Costa Rica:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Docencia.&lt;/li&gt;
-&lt;li&gt;Acción Social.&lt;/li&gt;
-&lt;li&gt;Investigación.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Cada una de dichas actividades se divide de muchas maneras; tal es el caso de becas, desarrollo de infraestructura, investigación, acción social, internacionalización de estudiantes y docentes.&lt;/p&gt;
-&lt;p&gt;El FEES permite además que los costos que un estudiante tenga que pagar para cursar sus estudios en cualquiera de las universidades públicas del país sean bajos y por lo tanto el acceso a una formación superior sea más factible.&lt;/p&gt;
-&lt;p&gt;Según la constitución el FEES se debe negociar regularmente entre las Universidades Públicas, representadas por el &lt;strong&gt;CONSEJO NACIONAL DE RECTORES (CONARE)&lt;/strong&gt; y los representantes del estado. &lt;strong&gt;&lt;em&gt;El monto asignado no puede ser inferior al asignado en el año anterior.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
-           <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-           <int value="4"></int>
-           <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-           <int value="2"></int>
-           <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-           <int value="3"></int>
-           <string role="key" value="htmlTag"></string>
-           <string value="div"></string>
-           <string role="key" value="images"></string>
-           <instance class="exe.engine.galleryidevice.GalleryImages">
-            <dictionary>
-             <string role="key" value=".listitems"></string>
-             <list></list>
-             <string role="key" value="idevice"></string>
-             <reference key="7"></reference>
-            </dictionary>
-           </instance>
-           <string role="key" value="intlinks_to_anchors"></string>
-           <dictionary></dictionary>
-           <string role="key" value="nextImageId"></string>
-           <int value="0"></int>
-           <string role="key" value="parentNode"></string>
-           <reference key="3"></reference>
-          </dictionary>
-         </instance>
-        </list>
-        <string role="key" value="icon"></string>
-        <unicode value=""></unicode>
-        <string role="key" value="id"></string>
-        <unicode value="2"></unicode>
-        <string role="key" value="ideviceCategory"></string>
-        <unicode value="Text and Tasks"></unicode>
-        <string role="key" value="lastIdevice"></string>
-        <bool value="0"></bool>
-        <string role="key" value="nextFieldId"></string>
-        <int value="3"></int>
-        <string role="key" value="originalicon"></string>
-        <string value=""></string>
-        <string role="key" value="parentNode"></string>
-        <reference key="3"></reference>
-        <string role="key" value="systemResources"></string>
-        <list></list>
-        <string role="key" value="undo"></string>
-        <bool value="1"></bool>
-        <string role="key" value="userResources"></string>
-        <list></list>
-        <string role="key" value="version"></string>
-        <int value="0"></int>
-       </dictionary>
-      </instance>
-      <instance class="exe.engine.jsidevice.JsIdevice" reference="8">
-       <dictionary>
-        <string role="key" value="_title"></string>
-        <unicode value="¿El FEES se distribuye igual entre todas las universidades?"></unicode>
-        <string role="key" value="_attributes"></string>
-        <list>
-         <tuple>
-          <string value="title"></string>
-          <list>
-           <string value="Title"></string>
-           <int value="0"></int>
-           <int value="0"></int>
-          </list>
-         </tuple>
-         <tuple>
-          <string value="category"></string>
-          <list>
-           <string value="Category"></string>
-           <int value="0"></int>
-           <int value="1"></int>
-          </list>
-         </tuple>
-         <tuple>
-          <string value="css-class"></string>
-          <list>
-           <string value="CSS class"></string>
-           <int value="0"></int>
-           <int value="2"></int>
-          </list>
-         </tuple>
-         <tuple>
-          <string value="icon"></string>
-          <list>
-           <string value="Icon"></string>
-           <int value="0"></int>
-           <int value="3"></int>
-          </list>
-         </tuple>
-        </list>
-        <string role="key" value="_author"></string>
-        <string value=""></string>
-        <string role="key" value="_iDeviceDir"></string>
-        <string value="text"></string>
-        <string role="key" value="_purpose"></string>
-        <string value=""></string>
-        <string role="key" value="_tip"></string>
-        <string value=""></string>
-        <string role="key" value="_typeName"></string>
-        <unicode value="Text"></unicode>
-        <string role="key" value="_valid"></string>
-        <bool value="1"></bool>
-        <string role="key" value="class_"></string>
-        <unicode value="text"></unicode>
-        <string role="key" value="edit"></string>
-        <bool value="0"></bool>
-        <string role="key" value="emphasis"></string>
-        <int value="1"></int>
-        <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
-        <int value="1"></int>
-        <string role="key" value="fields"></string>
-        <list>
-         <instance class="exe.engine.field.TextAreaField" reference="9">
-          <dictionary>
-           <string role="key" value="_id"></string>
            <unicode value="130_2"></unicode>
            <string role="key" value="_idevice"></string>
-           <reference key="8"></reference>
+           <reference key="6"></reference>
            <string role="key" value="_instruc"></string>
            <string value=""></string>
            <string role="key" value="_name"></string>
@@ -588,7 +453,7 @@
              <string role="key" value=".listitems"></string>
              <list></list>
              <string role="key" value="idevice"></string>
-             <reference key="9"></reference>
+             <reference key="7"></reference>
             </dictionary>
            </instance>
            <string role="key" value="intlinks_to_anchors"></string>
@@ -628,7 +493,7 @@
      <string role="key" value="_id"></string>
      <unicode value="0"></unicode>
      <string role="key" value="_package"></string>
-     <reference key="10"></reference>
+     <reference key="8"></reference>
      <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
      <int value="2"></int>
      <string role="key" value="exportType"></string>
@@ -639,13 +504,13 @@
      <none></none>
      <string role="key" value="children"></string>
      <list>
-      <instance class="exe.engine.node.Node" reference="13">
+      <instance class="exe.engine.node.Node" reference="11">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="EL FEES de forma interactiva"></unicode>
         <string role="key" value="idevices"></string>
         <list>
-         <instance class="exe.engine.jsidevice.JsIdevice" reference="11">
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="9">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="FEES INTERACTIVO"></unicode>
@@ -706,12 +571,12 @@
            <int value="1"></int>
            <string role="key" value="fields"></string>
            <list>
-            <instance class="exe.engine.field.TextAreaField" reference="12">
+            <instance class="exe.engine.field.TextAreaField" reference="10">
              <dictionary>
               <string role="key" value="_id"></string>
               <unicode value="132_2"></unicode>
               <string role="key" value="_idevice"></string>
-              <reference key="11"></reference>
+              <reference key="9"></reference>
               <string role="key" value="_instruc"></string>
               <string value=""></string>
               <string role="key" value="_name"></string>
@@ -736,7 +601,7 @@
                 <string role="key" value=".listitems"></string>
                 <list></list>
                 <string role="key" value="idevice"></string>
-                <reference key="12"></reference>
+                <reference key="10"></reference>
                </dictionary>
               </instance>
               <string role="key" value="intlinks_to_anchors"></string>
@@ -744,7 +609,7 @@
               <string role="key" value="nextImageId"></string>
               <int value="0"></int>
               <string role="key" value="parentNode"></string>
-              <reference key="13"></reference>
+              <reference key="11"></reference>
              </dictionary>
             </instance>
            </list>
@@ -761,7 +626,7 @@
            <string role="key" value="originalicon"></string>
            <string value=""></string>
            <string role="key" value="parentNode"></string>
-           <reference key="13"></reference>
+           <reference key="11"></reference>
            <string role="key" value="systemResources"></string>
            <list></list>
            <string role="key" value="undo"></string>
@@ -808,7 +673,7 @@ and select the size of the area to display it in."></unicode>
            <string role="key" value="originalicon"></string>
            <string value=""></string>
            <string role="key" value="parentNode"></string>
-           <reference key="13"></reference>
+           <reference key="11"></reference>
            <string role="key" value="systemResources"></string>
            <list></list>
            <string role="key" value="undo"></string>
@@ -825,7 +690,7 @@ and select the size of the area to display it in."></unicode>
         <string role="key" value="_id"></string>
         <unicode value="1"></unicode>
         <string role="key" value="_package"></string>
-        <reference key="10"></reference>
+        <reference key="8"></reference>
         <string role="key" value="anchor_fields"></string>
         <list></list>
         <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -842,13 +707,148 @@ and select the size of the area to display it in."></unicode>
         <list></list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="16">
+      <instance class="exe.engine.node.Node" reference="14">
        <dictionary>
         <string role="key" value="_title"></string>
-        <unicode value="Cómo se usa el FEES"></unicode>
+        <unicode value="Usos del FEES"></unicode>
         <string role="key" value="idevices"></string>
         <list>
-         <instance class="exe.engine.jsidevice.JsIdevice" reference="14">
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="12">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="¿Cómo se usa el FEES?"></unicode>
+           <string role="key" value="_attributes"></string>
+           <list>
+            <tuple>
+             <string value="title"></string>
+             <list>
+              <string value="Title"></string>
+              <int value="0"></int>
+              <int value="0"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="category"></string>
+             <list>
+              <string value="Category"></string>
+              <int value="0"></int>
+              <int value="1"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="css-class"></string>
+             <list>
+              <string value="CSS class"></string>
+              <int value="0"></int>
+              <int value="2"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="icon"></string>
+             <list>
+              <string value="Icon"></string>
+              <int value="0"></int>
+              <int value="3"></int>
+             </list>
+            </tuple>
+           </list>
+           <string role="key" value="_author"></string>
+           <string value=""></string>
+           <string role="key" value="_iDeviceDir"></string>
+           <string value="text"></string>
+           <string role="key" value="_purpose"></string>
+           <string value=""></string>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="_typeName"></string>
+           <unicode value="Text"></unicode>
+           <string role="key" value="_valid"></string>
+           <bool value="1"></bool>
+           <string role="key" value="class_"></string>
+           <unicode value="text"></unicode>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="1"></int>
+           <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+           <int value="1"></int>
+           <string role="key" value="fields"></string>
+           <list>
+            <instance class="exe.engine.field.TextAreaField" reference="13">
+             <dictionary>
+              <string role="key" value="_id"></string>
+              <unicode value="129_2"></unicode>
+              <string role="key" value="_idevice"></string>
+              <reference key="12"></reference>
+              <string role="key" value="_instruc"></string>
+              <string value=""></string>
+              <string role="key" value="_name"></string>
+              <string value=""></string>
+              <string role="key" value="anchor_names"></string>
+              <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
+              <string role="key" value="content_w_resourcePaths"></string>
+              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;El FEES es usado para las actividades sustantivas de las Universidades Públicas de Costa Rica:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Docencia.&lt;/li&gt;
+&lt;li&gt;Acción Social.&lt;/li&gt;
+&lt;li&gt;Investigación.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cada una de dichas actividades se divide de muchas maneras; tal es el caso de &lt;strong&gt;becas, desarrollo de infraestructura, investigación, acción social, internacionalización de estudiantes y docentes.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;El FEES permite además que los costos que un estudiante tenga que pagar para cursar sus estudios en cualquiera de las universidades públicas del país sean bajos y por lo tanto el acceso a una formación superior sea más factible.&lt;/p&gt;
+&lt;p&gt;Según la constitución el FEES se debe negociar regularmente entre las Universidades Públicas, representadas por el &lt;strong&gt;CONSEJO NACIONAL DE RECTORES (CONARE)&lt;/strong&gt; y los representantes del estado. &lt;strong&gt;&lt;em&gt;El monto asignado no puede ser inferior al asignado en el año anterior.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+              <int value="4"></int>
+              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="htmlTag"></string>
+              <string value="div"></string>
+              <string role="key" value="images"></string>
+              <instance class="exe.engine.galleryidevice.GalleryImages">
+               <dictionary>
+                <string role="key" value=".listitems"></string>
+                <list></list>
+                <string role="key" value="idevice"></string>
+                <reference key="13"></reference>
+               </dictionary>
+              </instance>
+              <string role="key" value="intlinks_to_anchors"></string>
+              <dictionary></dictionary>
+              <string role="key" value="nextImageId"></string>
+              <int value="0"></int>
+              <string role="key" value="parentNode"></string>
+              <reference key="3"></reference>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="icon"></string>
+           <unicode value=""></unicode>
+           <string role="key" value="id"></string>
+           <unicode value="2"></unicode>
+           <string role="key" value="ideviceCategory"></string>
+           <unicode value="Text and Tasks"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="nextFieldId"></string>
+           <int value="3"></int>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parentNode"></string>
+           <reference key="14"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="15">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value=""></unicode>
@@ -909,12 +909,12 @@ and select the size of the area to display it in."></unicode>
            <int value="1"></int>
            <string role="key" value="fields"></string>
            <list>
-            <instance class="exe.engine.field.TextAreaField" reference="15">
+            <instance class="exe.engine.field.TextAreaField" reference="16">
              <dictionary>
               <string role="key" value="_id"></string>
               <unicode value="129_2"></unicode>
               <string role="key" value="_idevice"></string>
-              <reference key="14"></reference>
+              <reference key="15"></reference>
               <string role="key" value="_instruc"></string>
               <string value=""></string>
               <string role="key" value="_name"></string>
@@ -954,7 +954,7 @@ and select the size of the area to display it in."></unicode>
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="243"></int>
+                     <int value="245"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -968,20 +968,20 @@ and select the size of the area to display it in."></unicode>
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="9_129_2.5"></unicode>
+                   <unicode value="9_129_2.7"></unicode>
                    <string role="key" value="_imageResource"></string>
                    <instance class="exe.engine.resource.Resource" reference="17">
                     <dictionary>
                      <string role="key" value="_idevice"></string>
-                     <reference key="14"></reference>
+                     <reference key="15"></reference>
                      <string role="key" value="_package"></string>
-                     <reference key="10"></reference>
+                     <reference key="8"></reference>
                      <string role="key" value="_storageName"></string>
-                     <string value="Por_que_es_tan_importante_luchar_por_el_FEES.mp4"></string>
+                     <string value="Zachari_Sede_Guanacaste.mp4"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpxNTpHh/Por_que_es_tan_importante_luchar_por_el_FEES.mp4"></string>
+                     <string value="/tmp/tmpgvWR6Q/Zachari_Sede_Guanacaste.mp4"></string>
                      <string role="key" value="checksum"></string>
-                     <string value="f0d625b53b14e1fcbe72726272ce8dac"></string>
+                     <string value="1a1f4e1e688aca0b1025adf36312a45f"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
                      <int value="2"></int>
                      <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
@@ -991,7 +991,7 @@ and select the size of the area to display it in."></unicode>
                     </dictionary>
                    </instance>
                    <string role="key" value="_parent"></string>
-                   <reference key="15"></reference>
+                   <reference key="16"></reference>
                    <string role="key" value="_thumbnailResource"></string>
                    <none></none>
                    <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
@@ -1006,7 +1006,7 @@ and select the size of the area to display it in."></unicode>
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="244"></int>
+                     <int value="246"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -1020,20 +1020,20 @@ and select the size of the area to display it in."></unicode>
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="9_129_2.6"></unicode>
+                   <unicode value="9_129_2.8"></unicode>
                    <string role="key" value="_imageResource"></string>
                    <instance class="exe.engine.resource.Resource" reference="18">
                     <dictionary>
                      <string role="key" value="_idevice"></string>
-                     <reference key="14"></reference>
+                     <reference key="15"></reference>
                      <string role="key" value="_package"></string>
-                     <reference key="10"></reference>
+                     <reference key="8"></reference>
                      <string role="key" value="_storageName"></string>
-                     <string value="Zachari_Sede_Guanacaste.mp4"></string>
+                     <string value="Por_que_es_tan_importante_luchar_por_el_FEES.mp4"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpxNTpHh/Zachari_Sede_Guanacaste.mp4"></string>
+                     <string value="/tmp/tmpgvWR6Q/Por_que_es_tan_importante_luchar_por_el_FEES.mp4"></string>
                      <string role="key" value="checksum"></string>
-                     <string value="1a1f4e1e688aca0b1025adf36312a45f"></string>
+                     <string value="f0d625b53b14e1fcbe72726272ce8dac"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
                      <int value="2"></int>
                      <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
@@ -1043,7 +1043,7 @@ and select the size of the area to display it in."></unicode>
                     </dictionary>
                    </instance>
                    <string role="key" value="_parent"></string>
-                   <reference key="15"></reference>
+                   <reference key="16"></reference>
                    <string role="key" value="_thumbnailResource"></string>
                    <none></none>
                    <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
@@ -1054,15 +1054,15 @@ and select the size of the area to display it in."></unicode>
                  </instance>
                 </list>
                 <string role="key" value="idevice"></string>
-                <reference key="15"></reference>
+                <reference key="16"></reference>
                </dictionary>
               </instance>
               <string role="key" value="intlinks_to_anchors"></string>
               <dictionary></dictionary>
               <string role="key" value="nextImageId"></string>
-              <int value="7"></int>
+              <int value="9"></int>
               <string role="key" value="parentNode"></string>
-              <reference key="16"></reference>
+              <reference key="14"></reference>
              </dictionary>
             </instance>
            </list>
@@ -1079,7 +1079,7 @@ and select the size of the area to display it in."></unicode>
            <string role="key" value="originalicon"></string>
            <string value=""></string>
            <string role="key" value="parentNode"></string>
-           <reference key="16"></reference>
+           <reference key="14"></reference>
            <string role="key" value="systemResources"></string>
            <list></list>
            <string role="key" value="undo"></string>
@@ -1154,11 +1154,11 @@ and select the size of the area to display it in."></unicode>
                 <string role="key" value="_idevice"></string>
                 <reference key="19"></reference>
                 <string role="key" value="_package"></string>
-                <reference key="10"></reference>
+                <reference key="8"></reference>
                 <string role="key" value="_storageName"></string>
                 <string value="constitucion_politica_digital_edincr.pdf"></string>
                 <string role="key" value="_userName"></string>
-                <string value="/home/rolando/Descargas/constitucion_politica_digital_edincr.pdf"></string>
+                <string value="/tmp/tmpgvWR6Q/constitucion_politica_digital_edincr.pdf"></string>
                 <string role="key" value="checksum"></string>
                 <string value="2913cb0911cf3951eb8f583b10beeeed"></string>
                 <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1217,7 +1217,7 @@ and select the size of the area to display it in."></unicode>
              <string role="key" value="nextImageId"></string>
              <int value="0"></int>
              <string role="key" value="parentNode"></string>
-             <none></none>
+             <reference key="14"></reference>
             </dictionary>
            </instance>
            <string role="key" value="lastIdevice"></string>
@@ -1227,7 +1227,7 @@ and select the size of the area to display it in."></unicode>
            <string role="key" value="originalicon"></string>
            <string value=""></string>
            <string role="key" value="parentNode"></string>
-           <reference key="16"></reference>
+           <reference key="14"></reference>
            <string role="key" value="showDesc"></string>
            <instance class="exe.engine.extendedfieldengine.ChoiceField">
             <dictionary>
@@ -1274,7 +1274,7 @@ and select the size of the area to display it in."></unicode>
         <string role="key" value="_id"></string>
         <unicode value="3"></unicode>
         <string role="key" value="_package"></string>
-        <reference key="10"></reference>
+        <reference key="8"></reference>
         <string role="key" value="anchor_fields"></string>
         <list></list>
         <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -1282,7 +1282,7 @@ and select the size of the area to display it in."></unicode>
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:Inicio:C%C3%B3mo%20se%20usa%20el%20FEES"></string>
+        <string value="exe-node:Inicio:Usos%20del%20FEES"></string>
         <string role="key" value="parent"></string>
         <reference key="3"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -1680,7 +1680,7 @@ and select the size of the area to display it in."></unicode>
         <string role="key" value="_id"></string>
         <unicode value="4"></unicode>
         <string role="key" value="_package"></string>
-        <reference key="10"></reference>
+        <reference key="8"></reference>
         <string role="key" value="anchor_fields"></string>
         <list></list>
         <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -1701,9 +1701,9 @@ and select the size of the area to display it in."></unicode>
     </dictionary>
    </instance>
    <unicode role="key" value="1"></unicode>
-   <reference key="13"></reference>
+   <reference key="11"></reference>
    <unicode role="key" value="3"></unicode>
-   <reference key="16"></reference>
+   <reference key="14"></reference>
    <unicode role="key" value="4"></unicode>
    <reference key="25"></reference>
   </dictionary>
@@ -1716,7 +1716,7 @@ and select the size of the area to display it in."></unicode>
   <string role="key" value="backgroundImgTile"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="16"></reference>
+  <reference key="25"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
@@ -2960,7 +2960,7 @@ and select the size of the area to display it in."></unicode>
   <dictionary>
    <string role="key" value="1a1f4e1e688aca0b1025adf36312a45f"></string>
    <list>
-    <reference key="18"></reference>
+    <reference key="17"></reference>
    </list>
    <string role="key" value="2913cb0911cf3951eb8f583b10beeeed"></string>
    <list>
@@ -2968,7 +2968,7 @@ and select the size of the area to display it in."></unicode>
    </list>
    <string role="key" value="f0d625b53b14e1fcbe72726272ce8dac"></string>
    <list>
-    <reference key="17"></reference>
+    <reference key="18"></reference>
    </list>
   </dictionary>
   <string role="key" value="root"></string>
